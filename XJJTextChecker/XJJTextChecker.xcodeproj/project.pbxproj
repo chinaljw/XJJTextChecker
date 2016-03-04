@@ -1,0 +1,553 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		7217C4321C893854000AFE85 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 7217C4311C893854000AFE85 /* main.m */; };
+		7217C4351C893854000AFE85 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 7217C4341C893854000AFE85 /* AppDelegate.m */; };
+		7217C4381C893854000AFE85 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7217C4371C893854000AFE85 /* ViewController.m */; };
+		7217C43B1C893854000AFE85 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7217C4391C893854000AFE85 /* Main.storyboard */; };
+		7217C43D1C893854000AFE85 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7217C43C1C893854000AFE85 /* Assets.xcassets */; };
+		7217C4401C893854000AFE85 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7217C43E1C893854000AFE85 /* LaunchScreen.storyboard */; };
+		7217C44B1C893854000AFE85 /* XJJTextCheckerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 7217C44A1C893854000AFE85 /* XJJTextCheckerTests.m */; };
+		7217C4561C893854000AFE85 /* XJJTextCheckerUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 7217C4551C893854000AFE85 /* XJJTextCheckerUITests.m */; };
+		7217C46D1C893865000AFE85 /* UITextField+XJJTextChecker.m in Sources */ = {isa = PBXBuildFile; fileRef = 7217C4651C893865000AFE85 /* UITextField+XJJTextChecker.m */; };
+		7217C46E1C893865000AFE85 /* XJJCheckedTextInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = 7217C4671C893865000AFE85 /* XJJCheckedTextInfo.m */; };
+		7217C46F1C893865000AFE85 /* XJJCheckingResultInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = 7217C4691C893865000AFE85 /* XJJCheckingResultInfo.m */; };
+		7217C4701C893865000AFE85 /* XJJTextChecker.m in Sources */ = {isa = PBXBuildFile; fileRef = 7217C46B1C893865000AFE85 /* XJJTextChecker.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		7217C4471C893854000AFE85 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 7217C4251C893854000AFE85 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 7217C42C1C893854000AFE85;
+			remoteInfo = XJJTextChecker;
+		};
+		7217C4521C893854000AFE85 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 7217C4251C893854000AFE85 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 7217C42C1C893854000AFE85;
+			remoteInfo = XJJTextChecker;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		7217C42D1C893854000AFE85 /* XJJTextChecker.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = XJJTextChecker.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		7217C4311C893854000AFE85 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		7217C4331C893854000AFE85 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		7217C4341C893854000AFE85 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		7217C4361C893854000AFE85 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		7217C4371C893854000AFE85 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		7217C43A1C893854000AFE85 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		7217C43C1C893854000AFE85 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		7217C43F1C893854000AFE85 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		7217C4411C893854000AFE85 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7217C4461C893854000AFE85 /* XJJTextCheckerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = XJJTextCheckerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		7217C44A1C893854000AFE85 /* XJJTextCheckerTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = XJJTextCheckerTests.m; sourceTree = "<group>"; };
+		7217C44C1C893854000AFE85 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7217C4511C893854000AFE85 /* XJJTextCheckerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = XJJTextCheckerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		7217C4551C893854000AFE85 /* XJJTextCheckerUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = XJJTextCheckerUITests.m; sourceTree = "<group>"; };
+		7217C4571C893854000AFE85 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7217C4641C893865000AFE85 /* UITextField+XJJTextChecker.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UITextField+XJJTextChecker.h"; sourceTree = "<group>"; };
+		7217C4651C893865000AFE85 /* UITextField+XJJTextChecker.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UITextField+XJJTextChecker.m"; sourceTree = "<group>"; };
+		7217C4661C893865000AFE85 /* XJJCheckedTextInfo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XJJCheckedTextInfo.h; sourceTree = "<group>"; };
+		7217C4671C893865000AFE85 /* XJJCheckedTextInfo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XJJCheckedTextInfo.m; sourceTree = "<group>"; };
+		7217C4681C893865000AFE85 /* XJJCheckingResultInfo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XJJCheckingResultInfo.h; sourceTree = "<group>"; };
+		7217C4691C893865000AFE85 /* XJJCheckingResultInfo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XJJCheckingResultInfo.m; sourceTree = "<group>"; };
+		7217C46A1C893865000AFE85 /* XJJTextChecker.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XJJTextChecker.h; sourceTree = "<group>"; };
+		7217C46B1C893865000AFE85 /* XJJTextChecker.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XJJTextChecker.m; sourceTree = "<group>"; };
+		7217C46C1C893865000AFE85 /* XJJTextObject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XJJTextObject.h; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		7217C42A1C893854000AFE85 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7217C4431C893854000AFE85 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7217C44E1C893854000AFE85 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		7217C4241C893854000AFE85 = {
+			isa = PBXGroup;
+			children = (
+				7217C42F1C893854000AFE85 /* XJJTextChecker */,
+				7217C4491C893854000AFE85 /* XJJTextCheckerTests */,
+				7217C4541C893854000AFE85 /* XJJTextCheckerUITests */,
+				7217C42E1C893854000AFE85 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		7217C42E1C893854000AFE85 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				7217C42D1C893854000AFE85 /* XJJTextChecker.app */,
+				7217C4461C893854000AFE85 /* XJJTextCheckerTests.xctest */,
+				7217C4511C893854000AFE85 /* XJJTextCheckerUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		7217C42F1C893854000AFE85 /* XJJTextChecker */ = {
+			isa = PBXGroup;
+			children = (
+				7217C4631C893865000AFE85 /* XJJTextChecker */,
+				7217C4331C893854000AFE85 /* AppDelegate.h */,
+				7217C4341C893854000AFE85 /* AppDelegate.m */,
+				7217C4361C893854000AFE85 /* ViewController.h */,
+				7217C4371C893854000AFE85 /* ViewController.m */,
+				7217C4391C893854000AFE85 /* Main.storyboard */,
+				7217C43C1C893854000AFE85 /* Assets.xcassets */,
+				7217C43E1C893854000AFE85 /* LaunchScreen.storyboard */,
+				7217C4411C893854000AFE85 /* Info.plist */,
+				7217C4301C893854000AFE85 /* Supporting Files */,
+			);
+			path = XJJTextChecker;
+			sourceTree = "<group>";
+		};
+		7217C4301C893854000AFE85 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				7217C4311C893854000AFE85 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		7217C4491C893854000AFE85 /* XJJTextCheckerTests */ = {
+			isa = PBXGroup;
+			children = (
+				7217C44A1C893854000AFE85 /* XJJTextCheckerTests.m */,
+				7217C44C1C893854000AFE85 /* Info.plist */,
+			);
+			path = XJJTextCheckerTests;
+			sourceTree = "<group>";
+		};
+		7217C4541C893854000AFE85 /* XJJTextCheckerUITests */ = {
+			isa = PBXGroup;
+			children = (
+				7217C4551C893854000AFE85 /* XJJTextCheckerUITests.m */,
+				7217C4571C893854000AFE85 /* Info.plist */,
+			);
+			path = XJJTextCheckerUITests;
+			sourceTree = "<group>";
+		};
+		7217C4631C893865000AFE85 /* XJJTextChecker */ = {
+			isa = PBXGroup;
+			children = (
+				7217C4641C893865000AFE85 /* UITextField+XJJTextChecker.h */,
+				7217C4651C893865000AFE85 /* UITextField+XJJTextChecker.m */,
+				7217C4661C893865000AFE85 /* XJJCheckedTextInfo.h */,
+				7217C4671C893865000AFE85 /* XJJCheckedTextInfo.m */,
+				7217C4681C893865000AFE85 /* XJJCheckingResultInfo.h */,
+				7217C4691C893865000AFE85 /* XJJCheckingResultInfo.m */,
+				7217C46A1C893865000AFE85 /* XJJTextChecker.h */,
+				7217C46B1C893865000AFE85 /* XJJTextChecker.m */,
+				7217C46C1C893865000AFE85 /* XJJTextObject.h */,
+			);
+			path = XJJTextChecker;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		7217C42C1C893854000AFE85 /* XJJTextChecker */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7217C45A1C893854000AFE85 /* Build configuration list for PBXNativeTarget "XJJTextChecker" */;
+			buildPhases = (
+				7217C4291C893854000AFE85 /* Sources */,
+				7217C42A1C893854000AFE85 /* Frameworks */,
+				7217C42B1C893854000AFE85 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = XJJTextChecker;
+			productName = XJJTextChecker;
+			productReference = 7217C42D1C893854000AFE85 /* XJJTextChecker.app */;
+			productType = "com.apple.product-type.application";
+		};
+		7217C4451C893854000AFE85 /* XJJTextCheckerTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7217C45D1C893854000AFE85 /* Build configuration list for PBXNativeTarget "XJJTextCheckerTests" */;
+			buildPhases = (
+				7217C4421C893854000AFE85 /* Sources */,
+				7217C4431C893854000AFE85 /* Frameworks */,
+				7217C4441C893854000AFE85 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				7217C4481C893854000AFE85 /* PBXTargetDependency */,
+			);
+			name = XJJTextCheckerTests;
+			productName = XJJTextCheckerTests;
+			productReference = 7217C4461C893854000AFE85 /* XJJTextCheckerTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		7217C4501C893854000AFE85 /* XJJTextCheckerUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7217C4601C893854000AFE85 /* Build configuration list for PBXNativeTarget "XJJTextCheckerUITests" */;
+			buildPhases = (
+				7217C44D1C893854000AFE85 /* Sources */,
+				7217C44E1C893854000AFE85 /* Frameworks */,
+				7217C44F1C893854000AFE85 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				7217C4531C893854000AFE85 /* PBXTargetDependency */,
+			);
+			name = XJJTextCheckerUITests;
+			productName = XJJTextCheckerUITests;
+			productReference = 7217C4511C893854000AFE85 /* XJJTextCheckerUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		7217C4251C893854000AFE85 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = ljw;
+				TargetAttributes = {
+					7217C42C1C893854000AFE85 = {
+						CreatedOnToolsVersion = 7.2;
+					};
+					7217C4451C893854000AFE85 = {
+						CreatedOnToolsVersion = 7.2;
+						TestTargetID = 7217C42C1C893854000AFE85;
+					};
+					7217C4501C893854000AFE85 = {
+						CreatedOnToolsVersion = 7.2;
+						TestTargetID = 7217C42C1C893854000AFE85;
+					};
+				};
+			};
+			buildConfigurationList = 7217C4281C893854000AFE85 /* Build configuration list for PBXProject "XJJTextChecker" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 7217C4241C893854000AFE85;
+			productRefGroup = 7217C42E1C893854000AFE85 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				7217C42C1C893854000AFE85 /* XJJTextChecker */,
+				7217C4451C893854000AFE85 /* XJJTextCheckerTests */,
+				7217C4501C893854000AFE85 /* XJJTextCheckerUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		7217C42B1C893854000AFE85 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7217C4401C893854000AFE85 /* LaunchScreen.storyboard in Resources */,
+				7217C43D1C893854000AFE85 /* Assets.xcassets in Resources */,
+				7217C43B1C893854000AFE85 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7217C4441C893854000AFE85 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7217C44F1C893854000AFE85 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		7217C4291C893854000AFE85 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7217C4381C893854000AFE85 /* ViewController.m in Sources */,
+				7217C46E1C893865000AFE85 /* XJJCheckedTextInfo.m in Sources */,
+				7217C4351C893854000AFE85 /* AppDelegate.m in Sources */,
+				7217C46F1C893865000AFE85 /* XJJCheckingResultInfo.m in Sources */,
+				7217C4701C893865000AFE85 /* XJJTextChecker.m in Sources */,
+				7217C4321C893854000AFE85 /* main.m in Sources */,
+				7217C46D1C893865000AFE85 /* UITextField+XJJTextChecker.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7217C4421C893854000AFE85 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7217C44B1C893854000AFE85 /* XJJTextCheckerTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7217C44D1C893854000AFE85 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7217C4561C893854000AFE85 /* XJJTextCheckerUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		7217C4481C893854000AFE85 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 7217C42C1C893854000AFE85 /* XJJTextChecker */;
+			targetProxy = 7217C4471C893854000AFE85 /* PBXContainerItemProxy */;
+		};
+		7217C4531C893854000AFE85 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 7217C42C1C893854000AFE85 /* XJJTextChecker */;
+			targetProxy = 7217C4521C893854000AFE85 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		7217C4391C893854000AFE85 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7217C43A1C893854000AFE85 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		7217C43E1C893854000AFE85 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7217C43F1C893854000AFE85 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		7217C4581C893854000AFE85 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		7217C4591C893854000AFE85 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		7217C45B1C893854000AFE85 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = XJJTextChecker/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.ljw.XJJTextChecker;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		7217C45C1C893854000AFE85 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = XJJTextChecker/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.ljw.XJJTextChecker;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		7217C45E1C893854000AFE85 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = XJJTextCheckerTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.ljw.XJJTextCheckerTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/XJJTextChecker.app/XJJTextChecker";
+			};
+			name = Debug;
+		};
+		7217C45F1C893854000AFE85 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = XJJTextCheckerTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.ljw.XJJTextCheckerTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/XJJTextChecker.app/XJJTextChecker";
+			};
+			name = Release;
+		};
+		7217C4611C893854000AFE85 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = XJJTextCheckerUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.ljw.XJJTextCheckerUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = XJJTextChecker;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		7217C4621C893854000AFE85 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = XJJTextCheckerUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.ljw.XJJTextCheckerUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = XJJTextChecker;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		7217C4281C893854000AFE85 /* Build configuration list for PBXProject "XJJTextChecker" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7217C4581C893854000AFE85 /* Debug */,
+				7217C4591C893854000AFE85 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7217C45A1C893854000AFE85 /* Build configuration list for PBXNativeTarget "XJJTextChecker" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7217C45B1C893854000AFE85 /* Debug */,
+				7217C45C1C893854000AFE85 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		7217C45D1C893854000AFE85 /* Build configuration list for PBXNativeTarget "XJJTextCheckerTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7217C45E1C893854000AFE85 /* Debug */,
+				7217C45F1C893854000AFE85 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		7217C4601C893854000AFE85 /* Build configuration list for PBXNativeTarget "XJJTextCheckerUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7217C4611C893854000AFE85 /* Debug */,
+				7217C4621C893854000AFE85 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 7217C4251C893854000AFE85 /* Project object */;
+}
